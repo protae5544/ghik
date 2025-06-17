@@ -1,0 +1,5924 @@
+{
+  "field_positions": {
+    "employer.type": {
+      "x": 851,
+      "y": 879,
+      "width": 150,
+      "height": 22,
+      "page": 0,
+      "related_text": "Type",
+      "confidence": 96,
+      "source": "ocr"
+    },
+    "employer.contact_info.soi": {
+      "x": 1181,
+      "y": 1914,
+      "width": 150,
+      "height": 16,
+      "page": 0,
+      "related_text": "Soi",
+      "confidence": 96,
+      "source": "ocr"
+    },
+    "employer.contact_info.road": {
+      "x": 237,
+      "y": 1988,
+      "width": 150,
+      "height": 17,
+      "page": 0,
+      "related_text": "Road",
+      "confidence": 96,
+      "source": "ocr"
+    },
+    "employer.contact_info.province": {
+      "x": 272,
+      "y": 2067,
+      "width": 150,
+      "height": 16,
+      "page": 0,
+      "related_text": "Province",
+      "confidence": 96,
+      "source": "ocr"
+    },
+    "employer.contact_info.phone": {
+      "x": 965,
+      "y": 2066,
+      "width": 150,
+      "height": 23,
+      "page": 0,
+      "related_text": "Telephone",
+      "confidence": 96,
+      "source": "ocr"
+    },
+    "employer.contact_info.fax": {
+      "x": 1262,
+      "y": 2067,
+      "width": 150,
+      "height": 16,
+      "page": 0,
+      "related_text": "Fax",
+      "confidence": 94,
+      "source": "ocr"
+    },
+    "employer.business_info.type": {
+      "x": 851,
+      "y": 879,
+      "width": 150,
+      "height": 22,
+      "page": 0,
+      "related_text": "Type",
+      "confidence": 96,
+      "source": "ocr"
+    },
+    "employer.business_info.total_employees.thai": {
+      "x": 383,
+      "y": 1145,
+      "width": 150,
+      "height": 17,
+      "page": 0,
+      "related_text": "Thailand",
+      "confidence": 96,
+      "source": "ocr"
+    },
+    "employer.business_info.total_employees.foreign": {
+      "x": 973,
+      "y": 878,
+      "width": 150,
+      "height": 22,
+      "page": 0,
+      "related_text": "foreigner",
+      "confidence": 96,
+      "source": "ocr"
+    },
+    "employee.personal_info.nationality": {
+      "x": 293,
+      "y": 878,
+      "width": 150,
+      "height": 22,
+      "page": 0,
+      "related_text": "Nationality",
+      "confidence": 96,
+      "source": "ocr"
+    },
+    "employee.work_permit.no": {
+      "x": 872,
+      "y": 1913,
+      "width": 150,
+      "height": 22,
+      "page": 0,
+      "related_text": "No./Building",
+      "confidence": 82,
+      "source": "ocr"
+    },
+    "employee.job_info.work_location.soi": {
+      "x": 1181,
+      "y": 1914,
+      "width": 150,
+      "height": 16,
+      "page": 0,
+      "related_text": "Soi",
+      "confidence": 96,
+      "source": "ocr"
+    },
+    "employee.job_info.work_location.road": {
+      "x": 237,
+      "y": 1988,
+      "width": 150,
+      "height": 17,
+      "page": 0,
+      "related_text": "Road",
+      "confidence": 96,
+      "source": "ocr"
+    },
+    "employee.job_info.work_location.province": {
+      "x": 272,
+      "y": 2067,
+      "width": 150,
+      "height": 16,
+      "page": 0,
+      "related_text": "Province",
+      "confidence": 96,
+      "source": "ocr"
+    }
+  },
+  "missing_fields": [
+    "employer.contact_info.address_no",
+    "employer.company_info.registered_capital",
+    "employee.personal_info.firstname",
+    "employer.business_info.products",
+    "employer.contact_info.postal_code",
+    "employee.work_permit.expire_date",
+    "employee.personal_info.passport_no",
+    "employer.company_info.current_capital",
+    "employer.contact_info.email",
+    "employer.company_info.name_en",
+    "employee.personal_info.lastname",
+    "employee.job_info.position",
+    "employee.job_info.work_location.address_no",
+    "employee.job_info.work_location.amphoe",
+    "employer.company_info.issue_date",
+    "document_info.reference_no",
+    "employee.personal_info.passport_expire_date",
+    "employer.contact_info.moo",
+    "document_info.submission_date",
+    "employee.personal_info.visa_expire_date",
+    "employee.personal_info.visa_issue_date",
+    "employee.job_info.job_description",
+    "employee.personal_info.visa_no",
+    "employee.work_permit.issue_date",
+    "employee.job_info.work_location.postal_code",
+    "employer.contact_info.website",
+    "employee.personal_info.birth_date",
+    "employer.contact_info.amphoe",
+    "employee.job_info.contract_period.end_date",
+    "employee.job_info.work_location.moo",
+    "employer.company_info.registration_no",
+    "employer.company_info.name_th",
+    "employer.contact_info.tambon",
+    "employee.personal_info.title",
+    "employee.job_info.salary",
+    "employee.personal_info.passport_issue_date",
+    "employee.personal_info.gender",
+    "employee.job_info.contract_period.start_date",
+    "employee.job_info.work_location.tambon"
+  ],
+  "ocr_blocks": {
+    "1": [
+      {
+        "text": "แบ",
+        "x": 120,
+        "y": 155,
+        "width": 53,
+        "height": 18,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "บ",
+        "x": 158,
+        "y": 150,
+        "width": 20,
+        "height": 34,
+        "conf": 95,
+        "line_num": 1
+      },
+      {
+        "text": "บ",
+        "x": 216,
+        "y": 155,
+        "width": 13,
+        "height": 18,
+        "conf": 88,
+        "line_num": 1
+      },
+      {
+        "text": "ต",
+        "x": 237,
+        "y": 155,
+        "width": 23,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": ".",
+        "x": 249,
+        "y": 150,
+        "width": 18,
+        "height": 34,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "๕",
+        "x": 277,
+        "y": 154,
+        "width": 16,
+        "height": 19,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "๕",
+        "x": 293,
+        "y": 154,
+        "width": 20,
+        "height": 19,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "2": [
+      {
+        "text": "FORM",
+        "x": 120,
+        "y": 202,
+        "width": 59,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "3": [
+      {
+        "text": "WP.",
+        "x": 223,
+        "y": 202,
+        "width": 38,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "44",
+        "x": 271,
+        "y": 202,
+        "width": 23,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "4": [
+      {
+        "text": "4",
+        "x": 233,
+        "y": 290,
+        "width": 5,
+        "height": 9,
+        "conf": 57,
+        "line_num": 1
+      }
+    ],
+    "5": [
+      {
+        "text": "ฑ์",
+        "x": 273,
+        "y": 318,
+        "width": 34,
+        "height": 15,
+        "conf": 65,
+        "line_num": 1
+      }
+    ],
+    "6": [
+      {
+        "text": "เล",
+        "x": 1257,
+        "y": 358,
+        "width": 80,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ข",
+        "x": 1281,
+        "y": 354,
+        "width": 14,
+        "height": 30,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 1294,
+        "y": 354,
+        "width": 14,
+        "height": 30,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "บ",
+        "x": 1307,
+        "y": 354,
+        "width": 16,
+        "height": 30,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 1322,
+        "y": 354,
+        "width": 20,
+        "height": 30,
+        "conf": 95,
+        "line_num": 1
+      }
+    ],
+    "7": [
+      {
+        "text": "ว",
+        "x": 1256,
+        "y": 403,
+        "width": 10,
+        "height": 16,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 1269,
+        "y": 403,
+        "width": 14,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 1286,
+        "y": 403,
+        "width": 11,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 1302,
+        "y": 403,
+        "width": 9,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "บ",
+        "x": 1315,
+        "y": 403,
+        "width": 11,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": ".",
+        "x": 1325,
+        "y": 399,
+        "width": 8,
+        "height": 30,
+        "conf": 74,
+        "line_num": 1
+      }
+    ],
+    "8": [
+      {
+        "text": "ก",
+        "x": 171,
+        "y": 412,
+        "width": 14,
+        "height": 18,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 188,
+        "y": 412,
+        "width": 12,
+        "height": 18,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ม",
+        "x": 203,
+        "y": 412,
+        "width": 13,
+        "height": 18,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ก",
+        "x": 221,
+        "y": 412,
+        "width": 11,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 239,
+        "y": 412,
+        "width": 9,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 254,
+        "y": 412,
+        "width": 10,
+        "height": 18,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "จ",
+        "x": 268,
+        "y": 401,
+        "width": 10,
+        "height": 29,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ั",
+        "x": 277,
+        "y": 397,
+        "width": 14,
+        "height": 43,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ด",
+        "x": 290,
+        "y": 412,
+        "width": 11,
+        "height": 18,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ห",
+        "x": 306,
+        "y": 412,
+        "width": 14,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 323,
+        "y": 412,
+        "width": 12,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 338,
+        "y": 412,
+        "width": 11,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 352,
+        "y": 412,
+        "width": 12,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 366,
+        "y": 412,
+        "width": 18,
+        "height": 18,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "9": [
+      {
+        "text": "ค",
+        "x": 612,
+        "y": 395,
+        "width": 10,
+        "height": 28,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 621,
+        "y": 384,
+        "width": 14,
+        "height": 54,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 635,
+        "y": 405,
+        "width": 6,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ขอ",
+        "x": 648,
+        "y": 405,
+        "width": 26,
+        "height": 18,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "เป",
+        "x": 677,
+        "y": 398,
+        "width": 23,
+        "height": 25,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ล",
+        "x": 703,
+        "y": 388,
+        "width": 10,
+        "height": 35,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 712,
+        "y": 384,
+        "width": 11,
+        "height": 54,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 722,
+        "y": 405,
+        "width": 13,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 736,
+        "y": 405,
+        "width": 14,
+        "height": 18,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 755,
+        "y": 405,
+        "width": 9,
+        "height": 18,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 769,
+        "y": 405,
+        "width": 8,
+        "height": 18,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 776,
+        "y": 384,
+        "width": 11,
+        "height": 54,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 786,
+        "y": 405,
+        "width": 11,
+        "height": 18,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ก",
+        "x": 800,
+        "y": 405,
+        "width": 13,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 815,
+        "y": 405,
+        "width": 12,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 829,
+        "y": 405,
+        "width": 12,
+        "height": 18,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ใน",
+        "x": 840,
+        "y": 394,
+        "width": 30,
+        "height": 29,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ใบ",
+        "x": 871,
+        "y": 394,
+        "width": 28,
+        "height": 29,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 901,
+        "y": 405,
+        "width": 14,
+        "height": 18,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 916,
+        "y": 405,
+        "width": 13,
+        "height": 29,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ุ",
+        "x": 928,
+        "y": 384,
+        "width": 18,
+        "height": 54,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ญา",
+        "x": 945,
+        "y": 405,
+        "width": 27,
+        "height": 27,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ต",
+        "x": 974,
+        "y": 405,
+        "width": 12,
+        "height": 18,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 990,
+        "y": 395,
+        "width": 10,
+        "height": 28,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 999,
+        "y": 384,
+        "width": 14,
+        "height": 54,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 1013,
+        "y": 405,
+        "width": 9,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 1026,
+        "y": 405,
+        "width": 9,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 1040,
+        "y": 405,
+        "width": 8,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 1053,
+        "y": 405,
+        "width": 14,
+        "height": 18,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "10": [
+      {
+        "text": "DEPARTMENT",
+        "x": 186,
+        "y": 448,
+        "width": 147,
+        "height": 16,
+        "conf": 95,
+        "line_num": 1
+      },
+      {
+        "text": "OF",
+        "x": 342,
+        "y": 448,
+        "width": 28,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "11": [
+      {
+        "text": "Request",
+        "x": 472,
+        "y": 449,
+        "width": 84,
+        "height": 21,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "Form",
+        "x": 565,
+        "y": 449,
+        "width": 52,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "for",
+        "x": 627,
+        "y": 448,
+        "width": 29,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "Making",
+        "x": 666,
+        "y": 448,
+        "width": 71,
+        "height": 22,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "Change(s)",
+        "x": 746,
+        "y": 447,
+        "width": 103,
+        "height": 23,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "to",
+        "x": 858,
+        "y": 450,
+        "width": 21,
+        "height": 15,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "Particulars",
+        "x": 889,
+        "y": 448,
+        "width": 108,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "of",
+        "x": 1006,
+        "y": 448,
+        "width": 22,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "the",
+        "x": 1035,
+        "y": 448,
+        "width": 35,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "Work",
+        "x": 1078,
+        "y": 448,
+        "width": 54,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "Permit",
+        "x": 1141,
+        "y": 449,
+        "width": 68,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "12": [
+      {
+        "text": "ขอ",
+        "x": 1256,
+        "y": 448,
+        "width": 26,
+        "height": 16,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ผู",
+        "x": 1286,
+        "y": 444,
+        "width": 17,
+        "height": 30,
+        "conf": 94,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 1302,
+        "y": 448,
+        "width": 9,
+        "height": 16,
+        "conf": 95,
+        "line_num": 1
+      },
+      {
+        "text": "บ",
+        "x": 1315,
+        "y": 448,
+        "width": 12,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "13": [
+      {
+        "text": "EMPLOYMENT",
+        "x": 203,
+        "y": 478,
+        "width": 151,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "14": [
+      {
+        "text": "ห",
+        "x": 1256,
+        "y": 492,
+        "width": 14,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ม",
+        "x": 1273,
+        "y": 492,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 1288,
+        "y": 492,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 1302,
+        "y": 492,
+        "width": 7,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "เล",
+        "x": 1316,
+        "y": 492,
+        "width": 17,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ข",
+        "x": 1338,
+        "y": 492,
+        "width": 10,
+        "height": 16,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ป",
+        "x": 1347,
+        "y": 479,
+        "width": 13,
+        "height": 39,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 1359,
+        "y": 486,
+        "width": 8,
+        "height": 22,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ะ",
+        "x": 1371,
+        "y": 492,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "จ",
+        "x": 1386,
+        "y": 493,
+        "width": 7,
+        "height": 14,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 1396,
+        "y": 484,
+        "width": 10,
+        "height": 24,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 1410,
+        "y": 492,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ต",
+        "x": 1417,
+        "y": 479,
+        "width": 11,
+        "height": 39,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ั",
+        "x": 1427,
+        "y": 484,
+        "width": 12,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 1439,
+        "y": 492,
+        "width": 9,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ค",
+        "x": 1451,
+        "y": 492,
+        "width": 11,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 1466,
+        "y": 492,
+        "width": 8,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ต",
+        "x": 1473,
+        "y": 479,
+        "width": 11,
+        "height": 39,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 1483,
+        "y": 484,
+        "width": 11,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 1497,
+        "y": 492,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 1510,
+        "y": 492,
+        "width": 6,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ด",
+        "x": 1515,
+        "y": 479,
+        "width": 10,
+        "height": 39,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "้",
+        "x": 1525,
+        "y": 483,
+        "width": 10,
+        "height": 25,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 1536,
+        "y": 492,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 1549,
+        "y": 492,
+        "width": 10,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      }
+    ],
+    "15": [
+      {
+        "text": "ก",
+        "x": 175,
+        "y": 526,
+        "width": 14,
+        "height": 18,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 193,
+        "y": 526,
+        "width": 12,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ะ",
+        "x": 207,
+        "y": 526,
+        "width": 12,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 222,
+        "y": 526,
+        "width": 16,
+        "height": 18,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 242,
+        "y": 526,
+        "width": 12,
+        "height": 18,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 256,
+        "y": 526,
+        "width": 14,
+        "height": 18,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 273,
+        "y": 526,
+        "width": 11,
+        "height": 18,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "แร",
+        "x": 288,
+        "y": 526,
+        "width": 28,
+        "height": 18,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 319,
+        "y": 526,
+        "width": 11,
+        "height": 18,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 334,
+        "y": 526,
+        "width": 11,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 348,
+        "y": 526,
+        "width": 12,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 361,
+        "y": 526,
+        "width": 18,
+        "height": 18,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "16": [
+      {
+        "text": "MINISTRY",
+        "x": 159,
+        "y": 561,
+        "width": 101,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "OF",
+        "x": 270,
+        "y": 561,
+        "width": 28,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "LABOUR",
+        "x": 309,
+        "y": 561,
+        "width": 87,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "17": [
+      {
+        "text": "ข้",
+        "x": 178,
+        "y": 625,
+        "width": 21,
+        "height": 43,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 198,
+        "y": 639,
+        "width": 9,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ม",
+        "x": 210,
+        "y": 639,
+        "width": 10,
+        "height": 25,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ู",
+        "x": 226,
+        "y": 639,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ล",
+        "x": 233,
+        "y": 625,
+        "width": 11,
+        "height": 43,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ค",
+        "x": 243,
+        "y": 639,
+        "width": 12,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 256,
+        "y": 639,
+        "width": 10,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ต",
+        "x": 265,
+        "y": 625,
+        "width": 12,
+        "height": 43,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 276,
+        "y": 631,
+        "width": 11,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 290,
+        "y": 639,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 303,
+        "y": 639,
+        "width": 9,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ด",
+        "x": 311,
+        "y": 625,
+        "width": 9,
+        "height": 43,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "้",
+        "x": 319,
+        "y": 629,
+        "width": 11,
+        "height": 26,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 332,
+        "y": 639,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 344,
+        "y": 639,
+        "width": 12,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      }
+    ],
+    "18": [
+      {
+        "text": "Particulars",
+        "x": 179,
+        "y": 682,
+        "width": 108,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "of",
+        "x": 297,
+        "y": 682,
+        "width": 22,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "foreigner",
+        "x": 326,
+        "y": 682,
+        "width": 94,
+        "height": 22,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "19": [
+      {
+        "text": "1.1",
+        "x": 121,
+        "y": 763,
+        "width": 28,
+        "height": 19,
+        "conf": 80,
+        "line_num": 1
+      }
+    ],
+    "20": [
+      {
+        "text": "น",
+        "x": 434,
+        "y": 766,
+        "width": 13,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 450,
+        "y": 766,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 464,
+        "y": 766,
+        "width": 10,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "/",
+        "x": 476,
+        "y": 763,
+        "width": 11,
+        "height": 20,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 488,
+        "y": 766,
+        "width": 13,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 504,
+        "y": 766,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 517,
+        "y": 766,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "/",
+        "x": 527,
+        "y": 763,
+        "width": 11,
+        "height": 20,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 539,
+        "y": 766,
+        "width": 13,
+        "height": 16,
+        "conf": 90,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 555,
+        "y": 766,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 567,
+        "y": 766,
+        "width": 8,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ส",
+        "x": 578,
+        "y": 765,
+        "width": 11,
+        "height": 17,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 593,
+        "y": 766,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 605,
+        "y": 766,
+        "width": 10,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "21": [
+      {
+        "text": "ชื",
+        "x": 174,
+        "y": 747,
+        "width": 15,
+        "height": 48,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 189,
+        "y": 747,
+        "width": 9,
+        "height": 48,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 198,
+        "y": 766,
+        "width": 6,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ผู",
+        "x": 204,
+        "y": 747,
+        "width": 15,
+        "height": 48,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "้",
+        "x": 219,
+        "y": 747,
+        "width": 9,
+        "height": 48,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 228,
+        "y": 751,
+        "width": 6,
+        "height": 31,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ื",
+        "x": 234,
+        "y": 747,
+        "width": 9,
+        "height": 48,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 243,
+        "y": 766,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 252,
+        "y": 747,
+        "width": 9,
+        "height": 48,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ค",
+        "x": 261,
+        "y": 758,
+        "width": 7,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 270,
+        "y": 766,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 279,
+        "y": 747,
+        "width": 9,
+        "height": 48,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ขอ",
+        "x": 288,
+        "y": 766,
+        "width": 20,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "22": [
+      {
+        "text": "Name",
+        "x": 179,
+        "y": 801,
+        "width": 56,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "of",
+        "x": 244,
+        "y": 800,
+        "width": 20,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "applicant",
+        "x": 272,
+        "y": 800,
+        "width": 91,
+        "height": 23,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "23": [
+      {
+        "text": "Mr./Mrs./Miss",
+        "x": 435,
+        "y": 801,
+        "width": 128,
+        "height": 17,
+        "conf": 41,
+        "line_num": 1
+      }
+    ],
+    "24": [
+      {
+        "text": "ส",
+        "x": 177,
+        "y": 843,
+        "width": 12,
+        "height": 17,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ญ",
+        "x": 192,
+        "y": 844,
+        "width": 14,
+        "height": 16,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ช",
+        "x": 212,
+        "y": 844,
+        "width": 10,
+        "height": 16,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 227,
+        "y": 844,
+        "width": 7,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ต",
+        "x": 240,
+        "y": 844,
+        "width": 12,
+        "height": 16,
+        "conf": 95,
+        "line_num": 1
+      }
+    ],
+    "25": [
+      {
+        "text": "ป",
+        "x": 789,
+        "y": 838,
+        "width": 14,
+        "height": 22,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 806,
+        "y": 844,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ะ",
+        "x": 818,
+        "y": 845,
+        "width": 11,
+        "height": 14,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "เภ",
+        "x": 833,
+        "y": 844,
+        "width": 20,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 856,
+        "y": 844,
+        "width": 14,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ขอ",
+        "x": 873,
+        "y": 844,
+        "width": 25,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 903,
+        "y": 844,
+        "width": 7,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ค",
+        "x": 914,
+        "y": 844,
+        "width": 8,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 929,
+        "y": 844,
+        "width": 8,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ต",
+        "x": 936,
+        "y": 831,
+        "width": 10,
+        "height": 39,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 946,
+        "y": 836,
+        "width": 10,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 961,
+        "y": 844,
+        "width": 7,
+        "height": 16,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 973,
+        "y": 844,
+        "width": 7,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ด",
+        "x": 980,
+        "y": 831,
+        "width": 10,
+        "height": 39,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "้",
+        "x": 989,
+        "y": 835,
+        "width": 11,
+        "height": 25,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 1000,
+        "y": 844,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 1012,
+        "y": 844,
+        "width": 10,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      }
+    ],
+    "26": [
+      {
+        "text": "Nationality",
+        "x": 178,
+        "y": 878,
+        "width": 105,
+        "height": 22,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "27": [
+      {
+        "text": "Type",
+        "x": 792,
+        "y": 879,
+        "width": 49,
+        "height": 22,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "of",
+        "x": 850,
+        "y": 878,
+        "width": 20,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "foreigner",
+        "x": 877,
+        "y": 878,
+        "width": 86,
+        "height": 22,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "28": [
+      {
+        "text": "1.2",
+        "x": 121,
+        "y": 935,
+        "width": 30,
+        "height": 19,
+        "conf": 95,
+        "line_num": 1
+      }
+    ],
+    "29": [
+      {
+        "text": "ใบ",
+        "x": 175,
+        "y": 928,
+        "width": 24,
+        "height": 26,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 204,
+        "y": 938,
+        "width": 10,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 219,
+        "y": 938,
+        "width": 8,
+        "height": 25,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ุ",
+        "x": 226,
+        "y": 919,
+        "width": 13,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ญา",
+        "x": 238,
+        "y": 938,
+        "width": 25,
+        "height": 23,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ต",
+        "x": 268,
+        "y": 938,
+        "width": 8,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 275,
+        "y": 919,
+        "width": 13,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 287,
+        "y": 930,
+        "width": 12,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 300,
+        "y": 938,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 313,
+        "y": 938,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 324,
+        "y": 938,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 333,
+        "y": 919,
+        "width": 10,
+        "height": 49,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "เล",
+        "x": 354,
+        "y": 938,
+        "width": 23,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ข",
+        "x": 376,
+        "y": 919,
+        "width": 13,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 388,
+        "y": 938,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 399,
+        "y": 923,
+        "width": 8,
+        "height": 31,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 406,
+        "y": 919,
+        "width": 7,
+        "height": 49,
+        "conf": 90,
+        "line_num": 1
+      },
+      {
+        "text": ".",
+        "x": 416,
+        "y": 952,
+        "width": 2,
+        "height": 2,
+        "conf": 92,
+        "line_num": 1
+      }
+    ],
+    "30": [
+      {
+        "text": "อ",
+        "x": 882,
+        "y": 938,
+        "width": 11,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 897,
+        "y": 938,
+        "width": 7,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ก",
+        "x": 903,
+        "y": 919,
+        "width": 13,
+        "height": 46,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ให",
+        "x": 915,
+        "y": 928,
+        "width": 20,
+        "height": 26,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "้",
+        "x": 936,
+        "y": 929,
+        "width": 9,
+        "height": 25,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 944,
+        "y": 919,
+        "width": 9,
+        "height": 46,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 953,
+        "y": 923,
+        "width": 9,
+        "height": 31,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 961,
+        "y": 919,
+        "width": 9,
+        "height": 46,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "(จ",
+        "x": 978,
+        "y": 930,
+        "width": 18,
+        "height": 26,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ั",
+        "x": 999,
+        "y": 938,
+        "width": 6,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 1004,
+        "y": 919,
+        "width": 10,
+        "height": 46,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ห",
+        "x": 1013,
+        "y": 938,
+        "width": 9,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 1021,
+        "y": 919,
+        "width": 10,
+        "height": 46,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ั",
+        "x": 1030,
+        "y": 930,
+        "width": 9,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ด",
+        "x": 1040,
+        "y": 938,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": ").",
+        "x": 1047,
+        "y": 919,
+        "width": 19,
+        "height": 46,
+        "conf": 88,
+        "line_num": 1
+      }
+    ],
+    "31": [
+      {
+        "text": "Issued",
+        "x": 888,
+        "y": 973,
+        "width": 59,
+        "height": 17,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "in",
+        "x": 957,
+        "y": 974,
+        "width": 15,
+        "height": 16,
+        "conf": 95,
+        "line_num": 1
+      },
+      {
+        "text": "(Province)",
+        "x": 982,
+        "y": 972,
+        "width": 97,
+        "height": 20,
+        "conf": 95,
+        "line_num": 1
+      }
+    ],
+    "32": [
+      {
+        "text": "Work",
+        "x": 178,
+        "y": 973,
+        "width": 50,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "permit",
+        "x": 237,
+        "y": 974,
+        "width": 64,
+        "height": 22,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "No.",
+        "x": 310,
+        "y": 974,
+        "width": 30,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "33": [
+      {
+        "text": "5",
+        "x": 178,
+        "y": 1016,
+        "width": 25,
+        "height": 16,
+        "conf": 69,
+        "line_num": 1
+      },
+      {
+        "text": "1",
+        "x": 209,
+        "y": 1001,
+        "width": 619,
+        "height": 31,
+        "conf": 22,
+        "line_num": 1
+      },
+      {
+        "text": "ใช",
+        "x": 828,
+        "y": 1006,
+        "width": 11,
+        "height": 26,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "้",
+        "x": 843,
+        "y": 1006,
+        "width": 10,
+        "height": 26,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ได",
+        "x": 852,
+        "y": 997,
+        "width": 20,
+        "height": 45,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "้",
+        "x": 871,
+        "y": 1007,
+        "width": 9,
+        "height": 25,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ถึ",
+        "x": 880,
+        "y": 997,
+        "width": 18,
+        "height": 45,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 897,
+        "y": 1016,
+        "width": 6,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 902,
+        "y": 997,
+        "width": 10,
+        "height": 45,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ั",
+        "x": 911,
+        "y": 1008,
+        "width": 9,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 919,
+        "y": 1016,
+        "width": 10,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 928,
+        "y": 997,
+        "width": 9,
+        "height": 45,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 936,
+        "y": 1001,
+        "width": 9,
+        "height": 31,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 944,
+        "y": 997,
+        "width": 10,
+        "height": 45,
+        "conf": 91,
+        "line_num": 1
+      }
+    ],
+    "34": [
+      {
+        "text": "Date",
+        "x": 179,
+        "y": 1051,
+        "width": 44,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "of",
+        "x": 232,
+        "y": 1050,
+        "width": 20,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "issue",
+        "x": 260,
+        "y": 1051,
+        "width": 46,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "35": [
+      {
+        "text": "Valid",
+        "x": 827,
+        "y": 1050,
+        "width": 48,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "until",
+        "x": 885,
+        "y": 1050,
+        "width": 43,
+        "height": 17,
+        "conf": 95,
+        "line_num": 1
+      }
+    ],
+    "36": [
+      {
+        "text": "13",
+        "x": 121,
+        "y": 1107,
+        "width": 30,
+        "height": 19,
+        "conf": 73,
+        "line_num": 1
+      }
+    ],
+    "37": [
+      {
+        "text": "ท",
+        "x": 178,
+        "y": 1095,
+        "width": 8,
+        "height": 31,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 186,
+        "y": 1091,
+        "width": 9,
+        "height": 48,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 195,
+        "y": 1110,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 204,
+        "y": 1091,
+        "width": 9,
+        "height": 48,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 213,
+        "y": 1110,
+        "width": 9,
+        "height": 25,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ู",
+        "x": 222,
+        "y": 1100,
+        "width": 9,
+        "height": 26,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 231,
+        "y": 1091,
+        "width": 9,
+        "height": 48,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "ใน",
+        "x": 240,
+        "y": 1104,
+        "width": 18,
+        "height": 22,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ป",
+        "x": 258,
+        "y": 1091,
+        "width": 12,
+        "height": 48,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 270,
+        "y": 1110,
+        "width": 7,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ะ",
+        "x": 282,
+        "y": 1111,
+        "width": 8,
+        "height": 14,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "เท",
+        "x": 295,
+        "y": 1110,
+        "width": 21,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ศ",
+        "x": 318,
+        "y": 1109,
+        "width": 12,
+        "height": 17,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ไ",
+        "x": 332,
+        "y": 1100,
+        "width": 10,
+        "height": 26,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 343,
+        "y": 1110,
+        "width": 11,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 354,
+        "y": 1091,
+        "width": 12,
+        "height": 48,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "เล",
+        "x": 378,
+        "y": 1091,
+        "width": 21,
+        "height": 48,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ข",
+        "x": 399,
+        "y": 1110,
+        "width": 6,
+        "height": 16,
+        "conf": 90,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 411,
+        "y": 1110,
+        "width": 9,
+        "height": 16,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 420,
+        "y": 1091,
+        "width": 9,
+        "height": 48,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 429,
+        "y": 1095,
+        "width": 8,
+        "height": 31,
+        "conf": 93,
+        "line_num": 1
+      }
+    ],
+    "38": [
+      {
+        "text": "ห",
+        "x": 631,
+        "y": 1110,
+        "width": 9,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ม",
+        "x": 639,
+        "y": 1091,
+        "width": 10,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ู",
+        "x": 648,
+        "y": 1102,
+        "width": 7,
+        "height": 33,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 654,
+        "y": 1091,
+        "width": 10,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 663,
+        "y": 1095,
+        "width": 10,
+        "height": 31,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 672,
+        "y": 1091,
+        "width": 11,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 682,
+        "y": 1107,
+        "width": 7,
+        "height": 20,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "/",
+        "x": 691,
+        "y": 1110,
+        "width": 7,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 697,
+        "y": 1091,
+        "width": 13,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 709,
+        "y": 1110,
+        "width": 6,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ค",
+        "x": 721,
+        "y": 1110,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 733,
+        "y": 1110,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 745,
+        "y": 1110,
+        "width": 10,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "39": [
+      {
+        "text": "ซอ",
+        "x": 1141,
+        "y": 1110,
+        "width": 25,
+        "height": 16,
+        "conf": 75,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 1172,
+        "y": 1110,
+        "width": 11,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "40": [
+      {
+        "text": "Address",
+        "x": 178,
+        "y": 1145,
+        "width": 77,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "in",
+        "x": 265,
+        "y": 1146,
+        "width": 14,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "Thailand",
+        "x": 288,
+        "y": 1145,
+        "width": 85,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "No.",
+        "x": 383,
+        "y": 1146,
+        "width": 30,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "41": [
+      {
+        "text": "Village",
+        "x": 630,
+        "y": 1145,
+        "width": 64,
+        "height": 22,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "No./",
+        "x": 704,
+        "y": 1145,
+        "width": 41,
+        "height": 18,
+        "conf": 63,
+        "line_num": 1
+      },
+      {
+        "text": "Building",
+        "x": 754,
+        "y": 1145,
+        "width": 76,
+        "height": 22,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "42": [
+      {
+        "text": "Soi",
+        "x": 1141,
+        "y": 1146,
+        "width": 28,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "(Side",
+        "x": 1178,
+        "y": 1144,
+        "width": 47,
+        "height": 20,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "Street/",
+        "x": 1234,
+        "y": 1146,
+        "width": 67,
+        "height": 17,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "Lane/",
+        "x": 1310,
+        "y": 1146,
+        "width": 56,
+        "height": 17,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "Alley)",
+        "x": 1374,
+        "y": 1144,
+        "width": 56,
+        "height": 23,
+        "conf": 95,
+        "line_num": 1
+      }
+    ],
+    "43": [
+      {
+        "text": "ถนน",
+        "x": 178,
+        "y": 1188,
+        "width": 45,
+        "height": 16,
+        "conf": 95,
+        "line_num": 1
+      }
+    ],
+    "44": [
+      {
+        "text": "ต",
+        "x": 595,
+        "y": 1180,
+        "width": 11,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 610,
+        "y": 1188,
+        "width": 8,
+        "height": 16,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 617,
+        "y": 1176,
+        "width": 12,
+        "height": 38,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "บ",
+        "x": 629,
+        "y": 1188,
+        "width": 7,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ล",
+        "x": 640,
+        "y": 1188,
+        "width": 11,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "/",
+        "x": 653,
+        "y": 1185,
+        "width": 11,
+        "height": 20,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "แ",
+        "x": 665,
+        "y": 1188,
+        "width": 12,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ข",
+        "x": 679,
+        "y": 1188,
+        "width": 10,
+        "height": 16,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 694,
+        "y": 1188,
+        "width": 7,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 706,
+        "y": 1188,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      }
+    ],
+    "45": [
+      {
+        "text": "อ",
+        "x": 1068,
+        "y": 1180,
+        "width": 8,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 1083,
+        "y": 1188,
+        "width": 5,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 1096,
+        "y": 1188,
+        "width": 4,
+        "height": 16,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "เภ",
+        "x": 1099,
+        "y": 1176,
+        "width": 17,
+        "height": 38,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 1121,
+        "y": 1188,
+        "width": 10,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "/",
+        "x": 1133,
+        "y": 1185,
+        "width": 11,
+        "height": 20,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "เ",
+        "x": 1146,
+        "y": 1188,
+        "width": 5,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ข",
+        "x": 1156,
+        "y": 1188,
+        "width": 9,
+        "height": 16,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "ต",
+        "x": 1168,
+        "y": 1188,
+        "width": 11,
+        "height": 16,
+        "conf": 91,
+        "line_num": 1
+      }
+    ],
+    "46": [
+      {
+        "text": "Road",
+        "x": 179,
+        "y": 1223,
+        "width": 48,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "47": [
+      {
+        "text": "Sub-district",
+        "x": 592,
+        "y": 1223,
+        "width": 110,
+        "height": 17,
+        "conf": 90,
+        "line_num": 1
+      }
+    ],
+    "48": [
+      {
+        "text": "District",
+        "x": 1073,
+        "y": 1224,
+        "width": 65,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "49": [
+      {
+        "text": "จ",
+        "x": 178,
+        "y": 1266,
+        "width": 11,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 193,
+        "y": 1266,
+        "width": 8,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ห",
+        "x": 204,
+        "y": 1266,
+        "width": 14,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 221,
+        "y": 1266,
+        "width": 10,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ด",
+        "x": 234,
+        "y": 1266,
+        "width": 12,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "50": [
+      {
+        "text": "ร",
+        "x": 602,
+        "y": 1266,
+        "width": 9,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ห",
+        "x": 610,
+        "y": 1252,
+        "width": 13,
+        "height": 40,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ั",
+        "x": 623,
+        "y": 1258,
+        "width": 9,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ส",
+        "x": 635,
+        "y": 1265,
+        "width": 8,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ไป",
+        "x": 645,
+        "y": 1256,
+        "width": 24,
+        "height": 26,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 672,
+        "y": 1266,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ษ",
+        "x": 684,
+        "y": 1266,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ณี",
+        "x": 693,
+        "y": 1252,
+        "width": 23,
+        "height": 40,
+        "conf": 87,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 715,
+        "y": 1252,
+        "width": 8,
+        "height": 40,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "์",
+        "x": 724,
+        "y": 1256,
+        "width": 11,
+        "height": 26,
+        "conf": 89,
+        "line_num": 1
+      }
+    ],
+    "51": [
+      {
+        "text": "โท",
+        "x": 999,
+        "y": 1257,
+        "width": 21,
+        "height": 25,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 1019,
+        "y": 1253,
+        "width": 13,
+        "height": 39,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ศั",
+        "x": 1031,
+        "y": 1265,
+        "width": 21,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "พ",
+        "x": 1055,
+        "y": 1266,
+        "width": 11,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 1065,
+        "y": 1253,
+        "width": 11,
+        "height": 39,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "์",
+        "x": 1075,
+        "y": 1266,
+        "width": 11,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      }
+    ],
+    "52": [
+      {
+        "text": "Province",
+        "x": 179,
+        "y": 1301,
+        "width": 83,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "53": [
+      {
+        "text": "Postal",
+        "x": 600,
+        "y": 1300,
+        "width": 59,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "code",
+        "x": 668,
+        "y": 1300,
+        "width": 48,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "54": [
+      {
+        "text": "Telephone",
+        "x": 1000,
+        "y": 1300,
+        "width": 108,
+        "height": 23,
+        "conf": 95,
+        "line_num": 1
+      }
+    ],
+    "55": [
+      {
+        "text": "โท",
+        "x": 176,
+        "y": 1326,
+        "width": 23,
+        "height": 25,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 204,
+        "y": 1335,
+        "width": 10,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ส",
+        "x": 217,
+        "y": 1334,
+        "width": 9,
+        "height": 17,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 232,
+        "y": 1335,
+        "width": 6,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 244,
+        "y": 1335,
+        "width": 10,
+        "height": 16,
+        "conf": 75,
+        "line_num": 1
+      }
+    ],
+    "56": [
+      {
+        "text": "ไป",
+        "x": 668,
+        "y": 1325,
+        "width": 25,
+        "height": 26,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 697,
+        "y": 1335,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ษ",
+        "x": 709,
+        "y": 1335,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ณ",
+        "x": 717,
+        "y": 1320,
+        "width": 12,
+        "height": 41,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 728,
+        "y": 1326,
+        "width": 13,
+        "height": 25,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 740,
+        "y": 1320,
+        "width": 9,
+        "height": 41,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "์",
+        "x": 748,
+        "y": 1325,
+        "width": 11,
+        "height": 26,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 762,
+        "y": 1327,
+        "width": 8,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ิ",
+        "x": 769,
+        "y": 1320,
+        "width": 11,
+        "height": 41,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "เล",
+        "x": 779,
+        "y": 1324,
+        "width": 18,
+        "height": 27,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "็",
+        "x": 801,
+        "y": 1335,
+        "width": 10,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ก",
+        "x": 810,
+        "y": 1320,
+        "width": 11,
+        "height": 41,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 820,
+        "y": 1335,
+        "width": 9,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 831,
+        "y": 1335,
+        "width": 10,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 844,
+        "y": 1335,
+        "width": 8,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 851,
+        "y": 1320,
+        "width": 11,
+        "height": 41,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ิ",
+        "x": 861,
+        "y": 1327,
+        "width": 11,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ก",
+        "x": 876,
+        "y": 1335,
+        "width": 6,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ส",
+        "x": 881,
+        "y": 1320,
+        "width": 12,
+        "height": 41,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "์",
+        "x": 892,
+        "y": 1325,
+        "width": 11,
+        "height": 26,
+        "conf": 93,
+        "line_num": 1
+      }
+    ],
+    "57": [
+      {
+        "text": "Fax",
+        "x": 179,
+        "y": 1368,
+        "width": 32,
+        "height": 16,
+        "conf": 94,
+        "line_num": 1
+      }
+    ],
+    "58": [
+      {
+        "text": "E-mail",
+        "x": 678,
+        "y": 1367,
+        "width": 59,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "address",
+        "x": 746,
+        "y": 1367,
+        "width": 74,
+        "height": 17,
+        "conf": 94,
+        "line_num": 1
+      }
+    ],
+    "59": [
+      {
+        "text": "ข้",
+        "x": 178,
+        "y": 1421,
+        "width": 21,
+        "height": 44,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 198,
+        "y": 1435,
+        "width": 9,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ม",
+        "x": 212,
+        "y": 1435,
+        "width": 11,
+        "height": 26,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ู",
+        "x": 226,
+        "y": 1435,
+        "width": 9,
+        "height": 16,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ล",
+        "x": 234,
+        "y": 1421,
+        "width": 12,
+        "height": 44,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ก",
+        "x": 245,
+        "y": 1435,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 257,
+        "y": 1435,
+        "width": 10,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 270,
+        "y": 1435,
+        "width": 11,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 282,
+        "y": 1426,
+        "width": 11,
+        "height": 25,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 292,
+        "y": 1421,
+        "width": 12,
+        "height": 44,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 303,
+        "y": 1435,
+        "width": 7,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 317,
+        "y": 1435,
+        "width": 5,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 328,
+        "y": 1435,
+        "width": 7,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 339,
+        "y": 1435,
+        "width": 14,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      }
+    ],
+    "60": [
+      {
+        "text": "Employment",
+        "x": 179,
+        "y": 1473,
+        "width": 128,
+        "height": 23,
+        "conf": 95,
+        "line_num": 1
+      },
+      {
+        "text": "record",
+        "x": 316,
+        "y": 1473,
+        "width": 62,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "61": [
+      {
+        "text": "21",
+        "x": 119,
+        "y": 1555,
+        "width": 30,
+        "height": 19,
+        "conf": 79,
+        "line_num": 1
+      }
+    ],
+    "62": [
+      {
+        "text": "ชื",
+        "x": 178,
+        "y": 1539,
+        "width": 19,
+        "height": 45,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 196,
+        "y": 1558,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 208,
+        "y": 1558,
+        "width": 9,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 216,
+        "y": 1539,
+        "width": 9,
+        "height": 45,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 224,
+        "y": 1558,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 238,
+        "y": 1558,
+        "width": 10,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "จ",
+        "x": 247,
+        "y": 1539,
+        "width": 9,
+        "height": 45,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "้",
+        "x": 255,
+        "y": 1549,
+        "width": 10,
+        "height": 25,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 266,
+        "y": 1558,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 278,
+        "y": 1558,
+        "width": 8,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      }
+    ],
+    "63": [
+      {
+        "text": "Name",
+        "x": 179,
+        "y": 1593,
+        "width": 56,
+        "height": 30,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "of",
+        "x": 244,
+        "y": 1592,
+        "width": 20,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "employer",
+        "x": 272,
+        "y": 1588,
+        "width": 95,
+        "height": 39,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "64": [
+      {
+        "text": "ท",
+        "x": 174,
+        "y": 1621,
+        "width": 11,
+        "height": 43,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 184,
+        "y": 1625,
+        "width": 8,
+        "height": 25,
+        "conf": 85,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 195,
+        "y": 1634,
+        "width": 9,
+        "height": 16,
+        "conf": 81,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 203,
+        "y": 1621,
+        "width": 9,
+        "height": 43,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ู",
+        "x": 211,
+        "y": 1626,
+        "width": 11,
+        "height": 34,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 222,
+        "y": 1621,
+        "width": 9,
+        "height": 43,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "เล",
+        "x": 238,
+        "y": 1634,
+        "width": 15,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ข",
+        "x": 256,
+        "y": 1634,
+        "width": 10,
+        "height": 16,
+        "conf": 90,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 265,
+        "y": 1621,
+        "width": 9,
+        "height": 43,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 273,
+        "y": 1625,
+        "width": 9,
+        "height": 25,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 281,
+        "y": 1621,
+        "width": 6,
+        "height": 43,
+        "conf": 90,
+        "line_num": 1
+      },
+      {
+        "text": ".........",
+        "x": 288,
+        "y": 1648,
+        "width": 84,
+        "height": 2,
+        "conf": 26,
+        "line_num": 1
+      }
+    ],
+    "65": [
+      {
+        "text": "ห",
+        "x": 486,
+        "y": 1634,
+        "width": 9,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ม",
+        "x": 494,
+        "y": 1615,
+        "width": 10,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ู",
+        "x": 503,
+        "y": 1626,
+        "width": 10,
+        "height": 34,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 512,
+        "y": 1615,
+        "width": 10,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 521,
+        "y": 1619,
+        "width": 7,
+        "height": 31,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 527,
+        "y": 1615,
+        "width": 11,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 537,
+        "y": 1631,
+        "width": 7,
+        "height": 20,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "/",
+        "x": 546,
+        "y": 1634,
+        "width": 7,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 552,
+        "y": 1615,
+        "width": 13,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 564,
+        "y": 1634,
+        "width": 6,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ค",
+        "x": 576,
+        "y": 1634,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 588,
+        "y": 1634,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 601,
+        "y": 1634,
+        "width": 10,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "66": [
+      {
+        "text": "ซอ",
+        "x": 985,
+        "y": 1634,
+        "width": 42,
+        "height": 16,
+        "conf": 81,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 1011,
+        "y": 1630,
+        "width": 19,
+        "height": 30,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "67": [
+      {
+        "text": "Address",
+        "x": 178,
+        "y": 1670,
+        "width": 77,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "No.",
+        "x": 265,
+        "y": 1671,
+        "width": 30,
+        "height": 16,
+        "conf": 95,
+        "line_num": 1
+      }
+    ],
+    "68": [
+      {
+        "text": "Village",
+        "x": 492,
+        "y": 1670,
+        "width": 64,
+        "height": 22,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "No./",
+        "x": 566,
+        "y": 1670,
+        "width": 41,
+        "height": 18,
+        "conf": 63,
+        "line_num": 1
+      },
+      {
+        "text": "Building",
+        "x": 616,
+        "y": 1670,
+        "width": 76,
+        "height": 22,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "69": [
+      {
+        "text": "Soi",
+        "x": 986,
+        "y": 1671,
+        "width": 27,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "(Side",
+        "x": 1022,
+        "y": 1669,
+        "width": 47,
+        "height": 20,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "Street/",
+        "x": 1078,
+        "y": 1670,
+        "width": 68,
+        "height": 18,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "Lane/",
+        "x": 1155,
+        "y": 1670,
+        "width": 56,
+        "height": 18,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "Alley)",
+        "x": 1218,
+        "y": 1669,
+        "width": 56,
+        "height": 23,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "70": [
+      {
+        "text": "ถนน",
+        "x": 178,
+        "y": 1711,
+        "width": 45,
+        "height": 16,
+        "conf": 95,
+        "line_num": 1
+      }
+    ],
+    "71": [
+      {
+        "text": "ต",
+        "x": 536,
+        "y": 1703,
+        "width": 11,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 551,
+        "y": 1711,
+        "width": 8,
+        "height": 16,
+        "conf": 90,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 558,
+        "y": 1699,
+        "width": 12,
+        "height": 38,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "บ",
+        "x": 570,
+        "y": 1711,
+        "width": 7,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ล",
+        "x": 581,
+        "y": 1711,
+        "width": 11,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "/",
+        "x": 594,
+        "y": 1708,
+        "width": 11,
+        "height": 20,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "แ",
+        "x": 608,
+        "y": 1711,
+        "width": 10,
+        "height": 16,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ข",
+        "x": 620,
+        "y": 1711,
+        "width": 12,
+        "height": 16,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 635,
+        "y": 1711,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 648,
+        "y": 1711,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      }
+    ],
+    "72": [
+      {
+        "text": "อ",
+        "x": 1025,
+        "y": 1703,
+        "width": 11,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 1040,
+        "y": 1711,
+        "width": 5,
+        "height": 16,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 1053,
+        "y": 1711,
+        "width": 4,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "เภ",
+        "x": 1060,
+        "y": 1699,
+        "width": 21,
+        "height": 38,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 1080,
+        "y": 1711,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "/",
+        "x": 1091,
+        "y": 1708,
+        "width": 11,
+        "height": 20,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "เ",
+        "x": 1103,
+        "y": 1711,
+        "width": 5,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ข",
+        "x": 1113,
+        "y": 1711,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ต",
+        "x": 1125,
+        "y": 1711,
+        "width": 12,
+        "height": 16,
+        "conf": 85,
+        "line_num": 1
+      }
+    ],
+    "73": [
+      {
+        "text": "Road",
+        "x": 179,
+        "y": 1745,
+        "width": 48,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "74": [
+      {
+        "text": "Sub-district",
+        "x": 536,
+        "y": 1745,
+        "width": 110,
+        "height": 17,
+        "conf": 90,
+        "line_num": 1
+      }
+    ],
+    "75": [
+      {
+        "text": "District",
+        "x": 1026,
+        "y": 1746,
+        "width": 65,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "76": [
+      {
+        "text": "จ",
+        "x": 178,
+        "y": 1786,
+        "width": 11,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 193,
+        "y": 1786,
+        "width": 8,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ห",
+        "x": 204,
+        "y": 1786,
+        "width": 14,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 221,
+        "y": 1786,
+        "width": 10,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ด",
+        "x": 234,
+        "y": 1786,
+        "width": 12,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "77": [
+      {
+        "text": "ร",
+        "x": 536,
+        "y": 1786,
+        "width": 9,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ห",
+        "x": 544,
+        "y": 1772,
+        "width": 13,
+        "height": 40,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ั",
+        "x": 557,
+        "y": 1778,
+        "width": 9,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ส",
+        "x": 569,
+        "y": 1785,
+        "width": 8,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ไป",
+        "x": 579,
+        "y": 1776,
+        "width": 24,
+        "height": 26,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 606,
+        "y": 1786,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ษ",
+        "x": 614,
+        "y": 1772,
+        "width": 13,
+        "height": 40,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ณี",
+        "x": 627,
+        "y": 1777,
+        "width": 23,
+        "height": 25,
+        "conf": 82,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 649,
+        "y": 1772,
+        "width": 8,
+        "height": 40,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "์",
+        "x": 658,
+        "y": 1776,
+        "width": 9,
+        "height": 26,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "................",
+        "x": 672,
+        "y": 1800,
+        "width": 109,
+        "height": 2,
+        "conf": 31,
+        "line_num": 1
+      },
+      {
+        "text": "โทรศัพท์.",
+        "x": 794,
+        "y": 1772,
+        "width": 161,
+        "height": 40,
+        "conf": 26,
+        "line_num": 1
+      }
+    ],
+    "78": [
+      {
+        "text": "โท",
+        "x": 1167,
+        "y": 1777,
+        "width": 78,
+        "height": 25,
+        "conf": 86,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 1192,
+        "y": 1773,
+        "width": 13,
+        "height": 39,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ส",
+        "x": 1204,
+        "y": 1773,
+        "width": 13,
+        "height": 39,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 1216,
+        "y": 1773,
+        "width": 13,
+        "height": 39,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 1228,
+        "y": 1773,
+        "width": 21,
+        "height": 39,
+        "conf": 70,
+        "line_num": 1
+      }
+    ],
+    "79": [
+      {
+        "text": "Province",
+        "x": 179,
+        "y": 1821,
+        "width": 83,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "80": [
+      {
+        "text": "Postal",
+        "x": 537,
+        "y": 1820,
+        "width": 59,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "code",
+        "x": 605,
+        "y": 1820,
+        "width": 48,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "81": [
+      {
+        "text": "Telephone",
+        "x": 788,
+        "y": 1820,
+        "width": 108,
+        "height": 23,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "82": [
+      {
+        "text": "Fax",
+        "x": 1171,
+        "y": 1821,
+        "width": 32,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      }
+    ],
+    "83": [
+      {
+        "text": "2.2",
+        "x": 119,
+        "y": 1875,
+        "width": 32,
+        "height": 19,
+        "conf": 95,
+        "line_num": 1
+      }
+    ],
+    "84": [
+      {
+        "text": "ส",
+        "x": 178,
+        "y": 1877,
+        "width": 11,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ถา",
+        "x": 193,
+        "y": 1878,
+        "width": 21,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 213,
+        "y": 1859,
+        "width": 12,
+        "height": 45,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 224,
+        "y": 1878,
+        "width": 10,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 237,
+        "y": 1863,
+        "width": 11,
+        "height": 31,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 247,
+        "y": 1859,
+        "width": 12,
+        "height": 45,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 258,
+        "y": 1870,
+        "width": 11,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 270,
+        "y": 1878,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 282,
+        "y": 1878,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 294,
+        "y": 1878,
+        "width": 7,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 306,
+        "y": 1878,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 314,
+        "y": 1859,
+        "width": 12,
+        "height": 45,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ขอ",
+        "x": 325,
+        "y": 1878,
+        "width": 24,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 352,
+        "y": 1878,
+        "width": 8,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ค",
+        "x": 363,
+        "y": 1878,
+        "width": 8,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "น",
+        "x": 370,
+        "y": 1859,
+        "width": 15,
+        "height": 45,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ต",
+        "x": 384,
+        "y": 1878,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 395,
+        "y": 1870,
+        "width": 10,
+        "height": 24,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 410,
+        "y": 1878,
+        "width": 6,
+        "height": 16,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 422,
+        "y": 1878,
+        "width": 6,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ด",
+        "x": 427,
+        "y": 1859,
+        "width": 12,
+        "height": 45,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "้",
+        "x": 438,
+        "y": 1869,
+        "width": 9,
+        "height": 25,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 449,
+        "y": 1878,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 462,
+        "y": 1878,
+        "width": 8,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "เล",
+        "x": 484,
+        "y": 1878,
+        "width": 14,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ข",
+        "x": 497,
+        "y": 1859,
+        "width": 15,
+        "height": 45,
+        "conf": 73,
+        "line_num": 1
+      },
+      {
+        "text": "ที",
+        "x": 511,
+        "y": 1863,
+        "width": 18,
+        "height": 31,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 528,
+        "y": 1859,
+        "width": 9,
+        "height": 45,
+        "conf": 92,
+        "line_num": 1
+      }
+    ],
+    "85": [
+      {
+        "text": "ขอ",
+        "x": 1143,
+        "y": 1878,
+        "width": 42,
+        "height": 16,
+        "conf": 89,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 1169,
+        "y": 1874,
+        "width": 19,
+        "height": 30,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "86": [
+      {
+        "text": "ห",
+        "x": 674,
+        "y": 1878,
+        "width": 9,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ม",
+        "x": 682,
+        "y": 1859,
+        "width": 10,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ู",
+        "x": 691,
+        "y": 1870,
+        "width": 7,
+        "height": 34,
+        "conf": 89,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 697,
+        "y": 1859,
+        "width": 10,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 706,
+        "y": 1863,
+        "width": 10,
+        "height": 31,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ี",
+        "x": 715,
+        "y": 1859,
+        "width": 11,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "่",
+        "x": 725,
+        "y": 1875,
+        "width": 7,
+        "height": 20,
+        "conf": 87,
+        "line_num": 1
+      },
+      {
+        "text": "/",
+        "x": 734,
+        "y": 1878,
+        "width": 7,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 740,
+        "y": 1859,
+        "width": 13,
+        "height": 49,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 752,
+        "y": 1878,
+        "width": 6,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ค",
+        "x": 764,
+        "y": 1878,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 776,
+        "y": 1878,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 788,
+        "y": 1878,
+        "width": 16,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "2",
+        "x": 808,
+        "y": 1892,
+        "width": 77,
+        "height": 2,
+        "conf": 55,
+        "line_num": 1
+      }
+    ],
+    "87": [
+      {
+        "text": "Place",
+        "x": 179,
+        "y": 1913,
+        "width": 52,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "of",
+        "x": 240,
+        "y": 1913,
+        "width": 20,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "work:",
+        "x": 267,
+        "y": 1913,
+        "width": 51,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "Address",
+        "x": 327,
+        "y": 1913,
+        "width": 78,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "No.",
+        "x": 415,
+        "y": 1914,
+        "width": 30,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "88": [
+      {
+        "text": "Village",
+        "x": 670,
+        "y": 1913,
+        "width": 64,
+        "height": 22,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "No./Building",
+        "x": 744,
+        "y": 1913,
+        "width": 118,
+        "height": 22,
+        "conf": 82,
+        "line_num": 1
+      }
+    ],
+    "89": [
+      {
+        "text": "Soi",
+        "x": 1143,
+        "y": 1914,
+        "width": 28,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "(Side",
+        "x": 1180,
+        "y": 1912,
+        "width": 47,
+        "height": 20,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "Street/",
+        "x": 1236,
+        "y": 1914,
+        "width": 67,
+        "height": 17,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "Lane/",
+        "x": 1312,
+        "y": 1914,
+        "width": 56,
+        "height": 17,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "Alley)",
+        "x": 1376,
+        "y": 1912,
+        "width": 56,
+        "height": 23,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "90": [
+      {
+        "text": "ถนน",
+        "x": 178,
+        "y": 1954,
+        "width": 45,
+        "height": 16,
+        "conf": 95,
+        "line_num": 1
+      }
+    ],
+    "91": [
+      {
+        "text": "ต",
+        "x": 543,
+        "y": 1946,
+        "width": 11,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 558,
+        "y": 1954,
+        "width": 8,
+        "height": 16,
+        "conf": 90,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 565,
+        "y": 1942,
+        "width": 12,
+        "height": 38,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "บ",
+        "x": 577,
+        "y": 1954,
+        "width": 7,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ล",
+        "x": 588,
+        "y": 1954,
+        "width": 11,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "/",
+        "x": 601,
+        "y": 1951,
+        "width": 11,
+        "height": 20,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "แ",
+        "x": 615,
+        "y": 1954,
+        "width": 10,
+        "height": 16,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ข",
+        "x": 627,
+        "y": 1954,
+        "width": 12,
+        "height": 16,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 642,
+        "y": 1954,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 655,
+        "y": 1954,
+        "width": 8,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      }
+    ],
+    "92": [
+      {
+        "text": "อ",
+        "x": 1025,
+        "y": 1946,
+        "width": 11,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ํ",
+        "x": 1040,
+        "y": 1954,
+        "width": 5,
+        "height": 16,
+        "conf": 91,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 1053,
+        "y": 1954,
+        "width": 4,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "เภ",
+        "x": 1060,
+        "y": 1942,
+        "width": 21,
+        "height": 38,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "อ",
+        "x": 1080,
+        "y": 1954,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "/",
+        "x": 1091,
+        "y": 1951,
+        "width": 11,
+        "height": 20,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "เ",
+        "x": 1103,
+        "y": 1954,
+        "width": 5,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ข",
+        "x": 1113,
+        "y": 1954,
+        "width": 9,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ต",
+        "x": 1125,
+        "y": 1954,
+        "width": 12,
+        "height": 16,
+        "conf": 85,
+        "line_num": 1
+      }
+    ],
+    "93": [
+      {
+        "text": "Road",
+        "x": 179,
+        "y": 1988,
+        "width": 48,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "94": [
+      {
+        "text": "Sub-district",
+        "x": 540,
+        "y": 1988,
+        "width": 110,
+        "height": 17,
+        "conf": 90,
+        "line_num": 1
+      }
+    ],
+    "95": [
+      {
+        "text": "District",
+        "x": 1026,
+        "y": 1989,
+        "width": 65,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "96": [
+      {
+        "text": "จ",
+        "x": 178,
+        "y": 2032,
+        "width": 11,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ง",
+        "x": 193,
+        "y": 2032,
+        "width": 8,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ห",
+        "x": 204,
+        "y": 2032,
+        "width": 14,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ว",
+        "x": 221,
+        "y": 2032,
+        "width": 10,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ด",
+        "x": 234,
+        "y": 2032,
+        "width": 12,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "97": [
+      {
+        "text": "ร",
+        "x": 541,
+        "y": 2032,
+        "width": 10,
+        "height": 16,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ห",
+        "x": 552,
+        "y": 2018,
+        "width": 10,
+        "height": 40,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ั",
+        "x": 562,
+        "y": 2024,
+        "width": 9,
+        "height": 24,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ส",
+        "x": 574,
+        "y": 2031,
+        "width": 8,
+        "height": 17,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ไป",
+        "x": 587,
+        "y": 2022,
+        "width": 22,
+        "height": 26,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 611,
+        "y": 2032,
+        "width": 10,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ษ",
+        "x": 624,
+        "y": 2032,
+        "width": 11,
+        "height": 16,
+        "conf": 75,
+        "line_num": 1
+      },
+      {
+        "text": "ณี",
+        "x": 634,
+        "y": 2018,
+        "width": 21,
+        "height": 40,
+        "conf": 92,
+        "line_num": 1
+      },
+      {
+        "text": "ย",
+        "x": 654,
+        "y": 2018,
+        "width": 11,
+        "height": 40,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "์",
+        "x": 664,
+        "y": 2022,
+        "width": 11,
+        "height": 26,
+        "conf": 93,
+        "line_num": 1
+      }
+    ],
+    "98": [
+      {
+        "text": "โท",
+        "x": 845,
+        "y": 2023,
+        "width": 21,
+        "height": 25,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 865,
+        "y": 2019,
+        "width": 13,
+        "height": 39,
+        "conf": 97,
+        "line_num": 1
+      },
+      {
+        "text": "ศั",
+        "x": 877,
+        "y": 2031,
+        "width": 21,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "พ",
+        "x": 901,
+        "y": 2032,
+        "width": 9,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ท",
+        "x": 909,
+        "y": 2019,
+        "width": 10,
+        "height": 39,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "์",
+        "x": 919,
+        "y": 2032,
+        "width": 14,
+        "height": 16,
+        "conf": 91,
+        "line_num": 1
+      }
+    ],
+    "99": [
+      {
+        "text": "โท",
+        "x": 1217,
+        "y": 2023,
+        "width": 23,
+        "height": 25,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 1245,
+        "y": 2032,
+        "width": 10,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "ส",
+        "x": 1258,
+        "y": 2031,
+        "width": 9,
+        "height": 17,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "า",
+        "x": 1273,
+        "y": 2032,
+        "width": 6,
+        "height": 16,
+        "conf": 93,
+        "line_num": 1
+      },
+      {
+        "text": "ร",
+        "x": 1285,
+        "y": 2032,
+        "width": 10,
+        "height": 16,
+        "conf": 75,
+        "line_num": 1
+      }
+    ],
+    "100": [
+      {
+        "text": "Province",
+        "x": 179,
+        "y": 2067,
+        "width": 83,
+        "height": 16,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "101": [
+      {
+        "text": "Postal",
+        "x": 541,
+        "y": 2066,
+        "width": 59,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      },
+      {
+        "text": "code",
+        "x": 609,
+        "y": 2066,
+        "width": 48,
+        "height": 17,
+        "conf": 96,
+        "line_num": 1
+      }
+    ],
+    "102": [
+      {
+        "text": "Fax",
+        "x": 1220,
+        "y": 2067,
+        "width": 32,
+        "height": 16,
+        "conf": 94,
+        "line_num": 1
+      }
+    ],
+    "103": [
+      {
+        "text": "Telephone",
+        "x": 847,
+        "y": 2066,
+        "width": 108,
+        "height": 23,
+        "conf": 96,
+        "line_num": 1
+      }
+    ]
+  },
+  "dotted_fields": [
+    {
+      "x": 117,
+      "y": 199,
+      "width": 64,
+      "height": 22
+    },
+    {
+      "x": 118,
+      "y": 152,
+      "width": 57,
+      "height": 24
+    }
+  ]
+}

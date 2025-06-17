@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Field Position Editor</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .pdf-container {
+            position: relative;
+            border: 1px solid #ccc;
+        }
+        #pdfCanvas {
+            position: relative;
+        }
+        .grid-lines {
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+        .field-marker {
+            position: absolute;
+            border: 2px solid #007bff;
+            background-color: rgba(0, 123, 255, 0.1);
+            cursor: move;
+        }
+        .field-label {
+            position: absolute;
+            background: #007bff;
+            color: white;
+            padding: 2px 5px;
+            font-size: 12px;
+            white-space: nowrap;
+            pointer-events: none;
+        }
+        .controls {
+            width: 300px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+        .field-list {
+            max-height: 500px;
+            overflow-y: auto;
+            margin-top: 10px;
+        }
+        .field-item {
+            padding: 5px;
+            margin: 2px 0;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        .field-item:hover {
+            background: #e9ecef;
+        }
+        .field-item.active {
+            background: #007bff;
+            color: white;
+        }
+        button {
+            margin: 5px;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 4px;
+            background: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .grid-controls {
+            margin-bottom: 10px;
+        }
+        input[type="number"] {
+            width: 60px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="pdf-container">
+            <canvas id="pdfCanvas"></canvas>
+            <canvas id="gridCanvas" class="grid-lines"></canvas>
+            <div id="fieldMarkers"></div>
+        </div>
+        <div class="controls">
+            <div class="grid-controls">
+                <label>Grid Spacing (px):</label>
+                <input type="number" id="gridSpacing" value="30" min="10" max="100">
+                <button onclick="updateGrid()">Update Grid</button>
+            </div>
+            <button onclick="loadPDF()">Load PDF</button>
+            <button onclick="savePositions()">Save Positions</button>
+            <div class="field-list" id="fieldList"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
+    <script>
+        // ตัวแปรสำหรับเก็บข้อมูล
+        let currentPDF = null;
+        let currentPage = null;
+        let fields = {};
+        let activeField = null;
+        let pdfScale = 1.5;
+        let gridSpacing = 30;
+        
+        // โหลด PDF.js
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.worker.min.js';
+
+        // โหลด PDF
+        async function loadPDF() {
+            const response = await fetch('บต.44.pdf');
+            const data = await response.arrayBuffer();
+            currentPDF = await pdfjsLib.getDocument(data).promise;
+            currentPage = await currentPDF.getPage(1);
+            
+            const viewport = currentPage.getViewport({ scale: pdfScale });
+            
+            // ตั้งค่า canvas สำหรับ PDF
+            const canvas = document.getElementById('pdfCanvas');
+            const context = canvas.getContext('2d');
+            canvas.width = viewport.width;
+            canvas.height = viewport.height;
+            
+            // แสดง PDF
+            await currentPage.render({
+                canvasContext: context,
+                viewport: viewport
+            }).promise;
+            
+            // ตั้งค่า canvas สำหรับ grid
+            const gridCanvas = document.getElementById('gridCanvas');
+            gridCanvas.width = viewport.width;
+            gridCanvas.height = viewport.height;
+            
+            // วาด grid
+            drawGrid();
+            
+            // โหลด template fields
+            loadTemplateFields();
+        }
+
+        // วาด grid lines
+        function drawGrid() {
+            const canvas = document.getElementById('gridCanvas');
+            const ctx = canvas.getContext('2d');
+            const spacing = parseInt(document.getElementById('gridSpacing').value);
+            
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.strokeStyle = 'rgba(0, 0, 255, 0.1)';
+            ctx.lineWidth = 1;
+            
+            // วาดเส้นแนวนอน
+            for (let y = 0; y < canvas.height; y += spacing) {
+                ctx.beginPath();
+                ctx.moveTo(0, y);
+                ctx.lineTo(canvas.width, y);
+                ctx.stroke();
+            }
+        }
+
+        // อัพเดท grid
+        function updateGrid() {
+            drawGrid();
+        }
+
+        // โหลด template fields
+        async function loadTemplateFields() {
+            const response = await fetch('bt44_template.json');
+            const template = await response.json();
+            
+            function extractFields(obj, prefix = '') {
+                for (const [key, value] of Object.entries(obj)) {
+                    const fieldPath = prefix ? `${prefix}.${key}` : key;
+                    if (typeof value === 'object' && value !== null) {
+                        extractFields(value, fieldPath);
+                    } else {
+                        fields[fieldPath] = { x: 0, y: 0, width: 150, height: 30 };
+                        addFieldToList(fieldPath);
+                    }
+                }
+            }
+            
+            extractFields(template);
+        }
+
+        // เพิ่ม field เข้า list
+        function addFieldToList(fieldPath) {
+            const container = document.getElementById('fieldList');
+            const div = document.createElement('div');
+            div.className = 'field-item';
+            div.textContent = fieldPath;
+            div.onclick = () => selectField(fieldPath);
+            container.appendChild(div);
+        }
+
+        // เลือก field
+        function selectField(fieldPath) {
+            activeField = fieldPath;
+            document.querySelectorAll('.field-item').forEach(item => {
+                item.classList.remove('active');
+                if (item.textContent === fieldPath) {
+                    item.classList.add('active');
+                }
+            });
+        }
+
+        // สร้าง marker สำหรับ field
+        function createFieldMarker(fieldPath, x, y) {
+            const spacing = parseInt(document.getElementById('gridSpacing').value);
+            // ปรับให้ y อยู่บนเส้น grid ที่ใกล้ที่สุด
+            const snappedY = Math.round(y / spacing) * spacing;
+            
+            fields[fieldPath] = {
+                x: x,
+                y: snappedY,
+                width: 150,
+                height: 30
+            };
+            
+            // ปรับ y ของ fields อื่นในบรรทัดเดียวกัน
+            const yThreshold = spacing / 2;
+            for (const [path, field] of Object.entries(fields)) {
+                if (path !== fieldPath && Math.abs(field.y - snappedY) < yThreshold) {
+                    field.y = snappedY;
+                    updateFieldMarkerPosition(path);
+                }
+            }
+            
+            updateFieldMarkerPosition(fieldPath);
+        }
+
+        // อัพเดทตำแหน่ง marker
+        function updateFieldMarkerPosition(fieldPath) {
+            const field = fields[fieldPath];
+            let marker = document.getElementById(`marker-${fieldPath}`);
+            
+            if (!marker) {
+                marker = document.createElement('div');
+                marker.id = `marker-${fieldPath}`;
+                marker.className = 'field-marker';
+                
+                const label = document.createElement('div');
+                label.className = 'field-label';
+                label.textContent = fieldPath.split('.').pop();
+                marker.appendChild(label);
+                
+                document.getElementById('fieldMarkers').appendChild(marker);
+            }
+            
+            marker.style.left = `${field.x}px`;
+            marker.style.top = `${field.y}px`;
+            marker.style.width = `${field.width}px`;
+            marker.style.height = `${field.height}px`;
+        }
+
+        // Event listener สำหรับการคลิก
+        document.getElementById('pdfCanvas').onclick = function(e) {
+            if (activeField) {
+                const rect = e.target.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                createFieldMarker(activeField, x, y);
+            }
+        };
+
+        // บันทึกตำแหน่ง
+        function savePositions() {
+            const json = JSON.stringify(fields, null, 2);
+            const blob = new Blob([json], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'bt44_field_positions.json';
+            a.click();
+        }
+
+        // โหลด PDF เมื่อหน้าเว็บโหลดเสร็จ
+        window.onload = loadPDF;
+    </script>
+</body>
+</html>

@@ -269,8 +269,68 @@ function showDebug(msg) {
     if (debugDiv) debugDiv.textContent = msg;
 }
 
+// Generate PDFs
+async function generatePDF() {
+    try {
+        showDebug('กำลังสร้าง PDF...');
+        if (typeof PDFLib === 'undefined' || typeof PDF_MAPPINGS === 'undefined') {
+            showError('ไม่พบไลบรารี PDF-lib หรือ mapping');
+            return;
+        }
+        const { PDFDocument } = PDFLib;
+        let created = 0;
+        for (const [formType, mapping] of Object.entries(PDF_MAPPINGS)) {
+            const formData = currentFormData[formType];
+            if (!formData || Object.keys(mapping.fields).length === 0) continue;
+            try {
+                const response = await fetch(mapping.template);
+                if (!response.ok) throw new Error(`ไม่พบไฟล์ ${mapping.template}`);
+                const templateBytes = await response.arrayBuffer();
+                const pdfDoc = await PDFDocument.load(templateBytes);
+                const form = pdfDoc.getForm();
+                for (const [pdfField, dataPath] of Object.entries(mapping.fields)) {
+                    try {
+                        const field = form.getTextField(pdfField);
+                        if (field) {
+                            const value = getNestedValue(formData, dataPath);
+                            if (value !== undefined) field.setText(String(value));
+                        }
+                    } catch (e) { /* ข้าม field ที่ไม่มี */ }
+                }
+                const pdfBytes = await pdfDoc.save();
+                const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = `${formType}_${new Date().toISOString().slice(0,10)}.pdf`;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(url);
+                created++;
+            } catch (err) {
+                showError(`สร้าง PDF สำหรับ ${formType} ไม่สำเร็จ: ${err.message}`);
+            }
+        }
+        if (created > 0) {
+            showSuccess('สร้าง PDF สำเร็จ');
+        } else {
+            showError('ไม่มีฟอร์มที่สามารถสร้าง PDF ได้');
+        }
+    } catch (error) {
+        showError('ไม่สามารถสร้าง PDF ได้: ' + error.message);
+    }
+}
+
 // Initialize app when page loads
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM loaded, initializing app...');
     initializeApp();
+    // เพิ่ม event ให้ nav buttons
+    document.getElementById('nav-employer').onclick = () => switchForm('employer');
+    document.getElementById('nav-bt44').onclick = () => switchForm('bt44');
+    document.getElementById('nav-bt46').onclick = () => switchForm('bt46');
+    document.getElementById('nav-bt52').onclick = () => switchForm('bt52');
+    document.getElementById('nav-bt55').onclick = () => switchForm('bt55');
+    document.getElementById('nav-contract').onclick = () => switchForm('contract');
 });

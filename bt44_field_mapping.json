@@ -1,0 +1,18 @@
+{
+  "employer.type": {
+    "x": 117,
+    "y": 199,
+    "width": 64,
+    "height": 22,
+    "page": 0,
+    "fontSize": 12
+  },
+  "employer.company_info.name_th": {
+    "x": 118,
+    "y": 152,
+    "width": 57,
+    "height": 24,
+    "page": 0,
+    "fontSize": 12
+  }
+}
