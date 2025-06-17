@@ -1,0 +1,120 @@
+{
+  "contract_info": {
+    "contract_no": "",
+    "date": "",
+    "location": ""
+  },
+  "employer": {
+    "company_info": {
+      "name_th": "",
+      "name_en": "",
+      "type": "นิติบุคคล|บุคคลธรรมดา",
+      "registration_no": "",
+      "address": {
+        "address_no": "",
+        "moo": "",
+        "soi": "",
+        "road": "",
+        "tambon": "",
+        "amphoe": "",
+        "province": "",
+        "postal_code": ""
+      }
+    },
+    "representative": {
+      "title": "",
+      "position": "",
+      "authority_document": ""
+    }
+  },
+  "employment_terms": {
+    "position": "",
+    "job_description": "",
+    "workplace": {
+      "address_no": "",
+      "moo": "",
+      "soi": "",
+      "road": "",
+      "tambon": "",
+      "amphoe": "",
+      "province": "",
+      "postal_code": ""
+    },
+    "period": {
+      "start_date": "",
+      "end_date": "",
+      "probation_period": 0
+    },
+    "working_hours": {
+      "regular": {
+        "start": "",
+        "end": "",
+        "days_per_week": 0,
+        "hours_per_day": 0
+      },
+      "break_time": {
+        "start": "",
+        "end": ""
+      }
+    },
+    "compensation": {
+      "salary": {
+        "amount": 0,
+        "payment_period": "รายวัน|รายสัปดาห์|รายเดือน",
+        "payment_date": ""
+      },
+      "overtime": {
+        "rate": 0,
+        "conditions": ""
+      },
+      "holiday_work": {
+        "rate": 0,
+        "conditions": ""
+      },
+      "other_benefits": []
+    },
+    "leave_policy": {
+      "annual_leave": {
+        "days": 0,
+        "conditions": ""
+      },
+      "sick_leave": {
+        "days": 0,
+        "conditions": ""
+      },
+      "other_leaves": []
+    },
+    "welfare_benefits": {
+      "social_security": true,
+      "workmen_compensation": true,
+      "health_insurance": {
+        "provided": false,
+        "details": ""
+      },
+      "accommodation": {
+        "provided": false,
+        "details": ""
+      },
+      "meals": {
+        "provided": false,
+        "details": ""
+      },
+      "other_benefits": []
+    }
+  },
+  "termination_conditions": {
+    "notice_period": "",
+    "severance_pay": "",
+    "other_conditions": ""
+  },
+  "signatures": {
+    "employer": {
+      "date": "",
+      "witness": ""
+    },
+    "employee": {
+      "date": "",
+      "witness": ""
+    }
+  }
+}

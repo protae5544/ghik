@@ -1,0 +1,63 @@
+{
+  "employer": {
+    "type": "นิติบุคคล|บุคคลธรรมดา",
+    "company_info": {
+      "name_th": "",
+      "name_en": "",
+      "registration_no": "",
+      "tax_id": ""
+    },
+    "contact_info": {
+      "address_no": "",
+      "moo": "",
+      "soi": "",
+      "road": "",
+      "tambon": "",
+      "amphoe": "",
+      "province": "",
+      "postal_code": "",
+      "phone": "",
+      "fax": "",
+      "email": ""
+    }
+  },
+  "employee": {
+    "personal_info": {
+      "title": "",
+      "firstname": "",
+      "lastname": "",
+      "nationality": "",
+      "birth_date": "",
+      "gender": "ชาย|หญิง",
+      "current_address": {
+        "address_no": "",
+        "moo": "",
+        "soi": "",
+        "road": "",
+        "tambon": "",
+        "amphoe": "",
+        "province": "",
+        "postal_code": ""
+      }
+    },
+    "work_permit": {
+      "current_no": "",
+      "issue_date": "",
+      "expire_date": "",
+      "extension_period": {
+        "start_date": "",
+        "end_date": ""
+      }
+    },
+    "job_info": {
+      "position": "",
+      "job_description": "",
+      "salary": 0
+    }
+  },
+  "document_info": {
+    "submission_date": "",
+    "reference_no": "",
+    "attachments": []
+  }
+}

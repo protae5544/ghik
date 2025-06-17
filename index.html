@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบกรอกแบบฟอร์มแรงงานต่างด้าว</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ระบบกรอกแบบฟอร์มแรงงานต่างด้าว</h1>
+            <nav>
+                <button onclick="switchForm('employer')" class="nav-button active">ข้อมูลนายจ้าง</button>
+                <button onclick="switchForm('bt44')" class="nav-button">บต.44</button>
+                <button onclick="switchForm('bt46')" class="nav-button">บต.46</button>
+                <button onclick="switchForm('bt52')" class="nav-button">บต.52</button>
+                <button onclick="switchForm('bt55')" class="nav-button">บต.55</button>
+                <button onclick="switchForm('contract')" class="nav-button">สัญญาจ้าง</button>
+            </nav>
+        </header>
+
+        <main>
+            <div id="employer-form" class="form-section active">
+                <!-- ฟอร์มข้อมูลนายจ้าง -->
+            </div>
+            <div id="bt44-form" class="form-section">
+                <!-- ฟอร์ม บต.44 -->
+            </div>
+            <div id="bt46-form" class="form-section">
+                <!-- ฟอร์ม บต.46 -->
+            </div>
+            <div id="bt52-form" class="form-section">
+                <!-- ฟอร์ม บต.52 -->
+            </div>
+            <div id="bt55-form" class="form-section">
+                <!-- ฟอร์ม บต.55 -->
+            </div>
+            <div id="contract-form" class="form-section">
+                <!-- ฟอร์มสัญญาจ้าง -->
+            </div>
+        </main>
+
+        <footer>
+            <button onclick="saveData()" class="action-button">บันทึกข้อมูล</button>
+            <button onclick="generatePDF()" class="action-button">สร้าง PDF</button>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

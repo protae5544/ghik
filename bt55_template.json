@@ -1,0 +1,45 @@
+{
+  "employer": {
+    "type": "นิติบุคคล|บุคคลธรรมดา",
+    "company_info": {
+      "name_th": "",
+      "name_en": "",
+      "registration_no": ""
+    },
+    "contact_info": {
+      "address_no": "",
+      "moo": "",
+      "soi": "",
+      "road": "",
+      "tambon": "",
+      "amphoe": "",
+      "province": "",
+      "postal_code": "",
+      "phone": ""
+    }
+  },
+  "employee": {
+    "personal_info": {
+      "title": "",
+      "firstname": "",
+      "lastname": "",
+      "nationality": "",
+      "passport_no": ""
+    },
+    "work_permit": {
+      "no": "",
+      "issue_date": "",
+      "expire_date": ""
+    },
+    "termination_info": {
+      "last_working_date": "",
+      "reason": "",
+      "details": ""
+    }
+  },
+  "document_info": {
+    "submission_date": "",
+    "reference_no": "",
+    "attachments": []
+  }
+}

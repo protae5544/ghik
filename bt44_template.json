@@ -1,0 +1,81 @@
+{
+  "employer": {
+    "type": "นิติบุคคล|บุคคลธรรมดา",
+    "company_info": {
+      "name_th": "",
+      "name_en": "",
+      "registration_no": "",
+      "issue_date": "",
+      "registered_capital": "",
+      "current_capital": ""
+    },
+    "contact_info": {
+      "address_no": "",
+      "moo": "",
+      "soi": "",
+      "road": "",
+      "tambon": "",
+      "amphoe": "",
+      "province": "",
+      "postal_code": "",
+      "phone": "",
+      "fax": "",
+      "email": "",
+      "website": ""
+    },
+    "business_info": {
+      "type": "",
+      "products": "",
+      "total_employees": {
+        "thai": 0,
+        "foreign": 0
+      }
+    }
+  },
+  "employee": {
+    "personal_info": {
+      "title": "",
+      "firstname": "",
+      "lastname": "",
+      "nationality": "",
+      "birth_date": "",
+      "gender": "ชาย|หญิง",
+      "passport_no": "",
+      "passport_issue_date": "",
+      "passport_expire_date": "",
+      "visa_no": "",
+      "visa_issue_date": "",
+      "visa_expire_date": ""
+    },
+    "work_permit": {
+      "no": "",
+      "issue_date": "",
+      "expire_date": ""
+    },
+    "job_info": {
+      "position": "",
+      "job_description": "",
+      "work_location": {
+        "address_no": "",
+        "moo": "",
+        "soi": "",
+        "road": "",
+        "tambon": "",
+        "amphoe": "",
+        "province": "",
+        "postal_code": ""
+      },
+      "contract_period": {
+        "start_date": "",
+        "end_date": ""
+      },
+      "salary": 0,
+      "benefits": []
+    }
+  },
+  "document_info": {
+    "submission_date": "",
+    "reference_no": "",
+    "attachments": []
+  }
+}

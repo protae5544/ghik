@@ -1,0 +1,114 @@
+{
+  "batch_info": {
+    "batch_id": "BATCH_{{timestamp}}",
+    "total_records": "{{total}}",
+    "processing_date": "{{date}}",
+    "status": "pending|processing|completed"
+  },
+  "employer_data": {
+    "template": {
+      "type": "{{employer_type}}",
+      "company_info": {
+        "name_th": "{{company_name_th}}",
+        "name_en": "{{company_name_en}}",
+        "registration_no": "{{registration_no}}",
+        "tax_id": "{{tax_id}}"
+      },
+      "contact_info": {
+        "address_no": "{{address_no}}",
+        "moo": "{{moo}}",
+        "soi": "{{soi}}",
+        "road": "{{road}}",
+        "tambon": "{{tambon}}",
+        "amphoe": "{{amphoe}}",
+        "province": "{{province}}",
+        "postal_code": "{{postal_code}}",
+        "phone": "{{phone}}",
+        "fax": "{{fax}}",
+        "email": "{{email}}"
+      }
+    }
+  },
+  "forms": {
+    "bt44": {
+      "template": "bt44_template.json",
+      "records": [
+        {
+          "record_id": "BT44_{{index}}",
+          "employee_data": "{{employee_data}}",
+          "document_info": {
+            "submission_date": "{{submission_date}}",
+            "reference_no": "{{reference_no}}"
+          }
+        }
+      ]
+    },
+    "bt46": {
+      "template": "bt46_template.json",
+      "records": [
+        {
+          "record_id": "BT46_{{index}}",
+          "change_request": "{{change_details}}",
+          "document_info": {
+            "submission_date": "{{submission_date}}",
+            "reference_no": "{{reference_no}}"
+          }
+        }
+      ]
+    },
+    "bt52": {
+      "template": "bt52_template.json",
+      "records": [
+        {
+          "record_id": "BT52_{{index}}",
+          "renewal_info": "{{renewal_details}}",
+          "document_info": {
+            "submission_date": "{{submission_date}}",
+            "reference_no": "{{reference_no}}"
+          }
+        }
+      ]
+    },
+    "bt55": {
+      "template": "bt55_template.json",
+      "records": [
+        {
+          "record_id": "BT55_{{index}}",
+          "termination_info": "{{termination_details}}",
+          "document_info": {
+            "submission_date": "{{submission_date}}",
+            "reference_no": "{{reference_no}}"
+          }
+        }
+      ]
+    },
+    "employment_contract": {
+      "template": "employment_contract_template.json",
+      "records": [
+        {
+          "record_id": "CONTRACT_{{index}}",
+          "contract_info": "{{contract_details}}",
+          "document_info": {
+            "execution_date": "{{execution_date}}",
+            "contract_no": "{{contract_no}}"
+          }
+        }
+      ]
+    }
+  },
+  "mapping_rules": {
+    "date_format": "YYYY-MM-DD",
+    "reference_no_format": "REF{{YYYYMMDD}}_{{SEQ}}",
+    "placeholders": {
+      "{{timestamp}}": "current_timestamp",
+      "{{date}}": "current_date",
+      "{{index}}": "sequential_number",
+      "{{total}}": "count_of_records"
+    }
+  },
+  "validation_rules": {
+    "required_fields": [],
+    "format_rules": {},
+    "cross_form_validations": []
+  }
+}

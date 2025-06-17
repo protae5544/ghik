@@ -1,0 +1,79 @@
+{
+  "request_type": {
+    "change_type": [],
+    "details": ""
+  },
+  "employer": {
+    "type": "นิติบุคคล|บุคคลธรรมดา",
+    "company_info": {
+      "name_th": "",
+      "name_en": "",
+      "registration_no": "",
+      "tax_id": ""
+    },
+    "contact_info": {
+      "address_no": "",
+      "moo": "",
+      "soi": "",
+      "road": "",
+      "tambon": "",
+      "amphoe": "",
+      "province": "",
+      "postal_code": "",
+      "phone": "",
+      "fax": "",
+      "email": ""
+    },
+    "business_info": {
+      "type": "",
+      "products": "",
+      "registered_capital": "",
+      "working_capital": "",
+      "total_employees": {
+        "thai": 0,
+        "foreign": 0
+      }
+    }
+  },
+  "work_change_details": {
+    "current": {
+      "work_type": "",
+      "position": "",
+      "job_description": "",
+      "workplace": {
+        "address_no": "",
+        "moo": "",
+        "soi": "",
+        "road": "",
+        "tambon": "",
+        "amphoe": "",
+        "province": "",
+        "postal_code": ""
+      },
+      "salary": 0,
+      "conditions": []
+    },
+    "requested": {
+      "work_type": "",
+      "position": "",
+      "job_description": "",
+      "workplace": {
+        "address_no": "",
+        "moo": "",
+        "soi": "",
+        "road": "",
+        "tambon": "",
+        "amphoe": "",
+        "province": "",
+        "postal_code": ""
+      },
+      "salary": 0,
+      "conditions": []
+    }
+  },
+  "document_info": {
+    "submission_date": "",
+    "reference_no": "",
+    "attachments": []
+  }
+}
