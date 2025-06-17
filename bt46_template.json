@@ -1,4 +1,35 @@
 {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "work_detail": {
+      "type": "object",
+      "properties": {
+        "work_type": { "type": "string" },
+        "position": { "type": "string" },
+        "job_description": { "type": "string" },
+        "workplace": {
+          "type": "object",
+          "properties": {
+            "address_no": { "type": "string" },
+            "moo": { "type": "string" },
+            "soi": { "type": "string" },
+            "road": { "type": "string" },
+            "tambon": { "type": "string" },
+            "amphoe": { "type": "string" },
+            "province": { "type": "string" },
+            "postal_code": { "type": "string" }
+          },
+          "required": []
+        },
+        "salary": { "type": "number" },
+        "conditions": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": []
+    }
+  },
   "request_type": {
     "change_type": [],
     "details": ""
@@ -37,38 +68,10 @@
   },
   "work_change_details": {
     "current": {
-      "work_type": "",
-      "position": "",
-      "job_description": "",
-      "workplace": {
-        "address_no": "",
-        "moo": "",
-        "soi": "",
-        "road": "",
-        "tambon": "",
-        "amphoe": "",
-        "province": "",
-        "postal_code": ""
-      },
-      "salary": 0,
-      "conditions": []
+      "$ref": "#/definitions/work_detail"
     },
     "requested": {
-      "work_type": "",
-      "position": "",
-      "job_description": "",
-      "workplace": {
-        "address_no": "",
-        "moo": "",
-        "soi": "",
-        "road": "",
-        "tambon": "",
-        "amphoe": "",
-        "province": "",
-        "postal_code": ""
-      },
-      "salary": 0,
-      "conditions": []
+      "$ref": "#/definitions/work_detail"
     }
   },
   "document_info": {

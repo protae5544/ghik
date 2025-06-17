@@ -66,12 +66,34 @@ nav {
     margin-bottom: 20px;
 }
 
-.form-section.active {
-    display: block;
+fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+legend {
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
 }
 
 .form-group {
     margin-bottom: 20px;
+}
+
+.form-section.active {
+    display: block;
 }
 
 label {
